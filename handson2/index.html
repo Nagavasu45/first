@@ -1,0 +1,46 @@
+<html>
+    <head><title>handson2</title></head>
+    <body>
+        <h1>FORMS</h1>
+        <form action="./result.html">
+            <label for="name1">Name</label>
+            <input type="tex"  id="name1" placeholder="name" name="name"/><br><br>
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="email" name="email" required/><br><br>
+            <label for="pwd">Password</label>
+            <input type="password" placeholder="password" name="password" /><br><br>
+            <label for="Language">Language</label><br><br>
+                <input type="radio" name="Language" value="React"/>React<br>
+                <input type="radio" name="Language" value="Angular"/>Angular<br>
+                <input type="radio" name="Language" value="Vue"/>Vue<br><br>
+            </label>
+            <label for="course" multiple>Course<br><br>
+                <input type="checkbox"  name="course1" value="MERN"/>MERN<br>
+                <input type="checkbox" name="course2" value="MEAN"/>MEAN<br>
+                <input type="checkbox" name="course3" value="MEVN"/>MEVN<br>
+            </label><br>
+            <label for="filed1">Field<br>
+                <select id="filed1" >
+                    <option name="course" value="Back End">Back End</option>
+                    <option name="course" value="Front End">Front End</option>
+                    <option name="course" value="Full Stack">Full Stack</option>
+                    
+                </select>
+            </label><br><br>
+            <textarea type="text" name="description" rows="7" cols="15"></textarea><br><br>
+            <label for="tell">phone nuber
+                <input id="tell"  pattern="[0-9]{10}" title="please enter between[0-9] and length is 10" name="phone number" type="tel"/>
+            </label>
+            <button type="submit">submit</button>
+
+            
+
+           
+
+
+        
+        </form>
+        <h2>TABLES</h2>
+        <a href="./tables.html">Click Here</a>
+    </body>
+</html>
