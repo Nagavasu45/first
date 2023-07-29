@@ -1,0 +1,444 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.logo1{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+.first{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    margin-left: 0px;
+    z-index: 1;
+    
+    background-color: white;
+}
+.second{
+    position: fixed;
+    height: 100%;
+    width: 50px;
+    margin-left: 0px;
+    
+    background-color: white;
+
+}
+.u1{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(70, 122, 199);
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 1100px;
+}
+.final1{
+    height: 45px;
+    width: 150px;
+    border: none;
+    position: absolute;
+    top:100px;
+    left: 250px;  
+    font-size: 30px;
+    color: white;
+    
+    background-color:black;
+    
+}
+.final2{
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top:100px;
+    left: 500px; 
+    font-size: 45px;
+    font-weight: bolder;
+    color: whitesmoke;
+    /* background-color: #ec4a22; */
+     
+    text-align: center;
+    
+}
+.smal1{
+    height: 30px;
+    width: 30px;
+    border-radius: 35px; 
+    /* background-color: white; */
+    
+    /* z-index: 1; */
+}
+.op2{
+    position: absolute;
+    /* top:20px; */
+    left: 200px;
+}
+/* .final3{
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    
+    top: 150px;
+    margin-left:500px;
+    align-items: center;
+    background-color: aqua; 
+} */
+.u2{
+    color: rgb(70, 122, 199);
+    font-size: 30px;
+}
+#hide1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    display: flex;
+}
+.sub1{
+    display: flex;
+}
+
+.colr1{
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}
+.colr2{
+    
+    color: white;
+    font-size: 30px;
+}
+.colr3{
+    font-size: 30px;
+    
+}
+.sub2{
+display: flex;
+
+}
+.u3{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(70, 122, 199) ;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 660px;
+    text-decoration: none;
+    border: none;
+}
+.u4{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    
+
+}
+#cardcontainer{
+    width: 950px;
+    height: auto;
+    
+    /* background-color:aqua;  */
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    bottom: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    position: relative;
+    
+    
+    
+}
+.newlyadd{
+    min-height: 300px;
+    width: 200px;
+    background-color:white;
+    border-radius: 9px;
+    color:rgb(180, 88, 88);
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+    
+}
+.popupbox{
+    height: 150px;
+    width: 300px;
+    /* border: 2px solid rgb(172, 96, 96); */
+    border-radius: 10px;
+    background-color:white;
+    position:absolute;
+    left: 500px;
+    top: 250px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.b1{
+    border-radius: 30px;
+    background-color: #ec4a22;
+    color: white;
+    height: 30px;
+    width: 50px;
+}
+.b2{
+    color: #ec4a22;
+}
+.cardname{
+    text-align: center;
+}
+.popupbox1{
+    height: 150px;
+    width: 300px;
+    border: 2px solid rgb(172, 96, 96);
+    background-color:white;
+    position:absolute;
+    left: 350px;
+    top: 50px;
+    text-align: center;
+}
+.buimg{
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+}
+.con{
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    
+}
+.buttondelete{
+    background-color: #d83a3a;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    margin-left: 130px;
+
+    
+
+
+}
+.buttonplus{
+    background-color: #7173e9;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.tb1{
+    height: 20px; 
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(65, 65, 245);
+}
+.mi{
+    height: 20px;
+}
+.ttx1{
+    color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.ttx2{
+    color: #ec4a22;
+    text-decoration: line-through;
+}
+.b11{
+    border-radius: 30px;
+    background-color: rgb(84, 141, 216);
+    color: white;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+}
+.backdiv{
+    display: flex;
+    height: 30px;
+    position: absolute;
+    top: -50px;
+    justify-content:space-around;
+    width: 55%;
+    font-size:  20px;
+   
+    /* border:5px solid red; */
+}
+.backbutton{
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.addbutton{
+    width: 30px;
+    height: 30x;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.addtxt{
+    color: #d83a3a;
+    width: 200px;
+    height: auto;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+.newlyadd1{
+    min-height: 300px;
+    width: 200px;
+    background-color:white;
+    border-radius: 9px;
+    color:rgb(180, 88, 88);
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    
+}
+@media only screen and (max-width: 600px){
+    .logo1{
+        position: fixed;
+        bottom: 0px;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        background-color: white;
+        z-index: 1;
+        display: none;
+    }
+    .first{
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        margin-left: 0px;
+        z-index: 1;
+        
+        background-color: white;
+        display: none;
+    }
+    .second{
+        position: fixed;
+        height: 100%;
+        width: 50px;
+        margin-left: 0px;
+        
+        background-color: white;
+        display: none;
+    
+    } 
+    #cardcontainer{
+        width: 375px;
+        height: auto;  
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        bottom: 50px;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        justify-content: space-between;
+     
+        
+        
+        
+    }
+    #hide1{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: flex;
+    }
+    .u3{
+        width: 30px;
+        height: 30px;
+        background-color:rgb(70, 122, 199) ;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-left: 160px;
+        text-decoration: none;
+        border: none;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    .u4{
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        border: none;
+        position: absolute;
+        top: 20px;
+        left: 220px;
+        
+    
+    }
+    #cardcontainer{
+        width: 375px;
+        height: auto;
+        
+        /* background-color:aqua;  */
+        display: flex;
+        /* position: absolute; */
+        top: 100px;
+        left: 20px;
+        bottom: 50px;
+        /* flex-wrap: wrap; */
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        
+        
+        
+    }
+    .popupbox{
+        height: 150px;
+        width: 300px;
+        /* border: 2px solid rgb(172, 96, 96); */
+        border-radius: 10px;
+        background-color:white;
+        position:absolute;
+        left: 40px;
+        top: 200px;
+        text-align: center;
+    }
+    .newlyadd{
+        min-height: 300px;
+        width: 200px;
+        background-color:white;
+        border-radius: 9px;
+        color:rgb(180, 88, 88);
+        margin-bottom: 10px;
+        margin-left: 55px;
+        position: relative;
+        text-align: center;
+        
+    }
+}
