@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1:Query the collection "employee" and list all the documents
+    </h2>
+    <pre>Ans:const qry1=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.find({}).toArray()
+        res.send({msg:result1})
+    }
+    </pre>
+    <h2>2:Query the collection "employee" and list the employees who are having salary more than 30000
+    </h2>
+    <pre>Ans:const qry2=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.find({"salary":{$gt:"30000"}}).toArray()
+        res.send({msg:result1})
+    }
+    
+</pre>
+    <h2>3:Query the collection "employee" and list the employees who are having experience more than 2 years.
+
+    </h2>
+    <pre>Ans:const qry3=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.find({"overallExp":{$gt:"2"}}).toArray();
+        res.send({msg:result1})
+    }
+    </pre>
+    <h2>4:Query the collection "employee" and list the employees who are graduated after 2015 and having experience more than 1 year 
+
+    </h2>
+    <pre>Ans:const qry4=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.find({yearGrad: { $gt: '2015' },overallExp: { $gt: '1' }}).toArray();
+        res.send({msg:result1})
+    }
+    </pre>
+    <h2>5:Query the collection "employee" and update the salary of the employee whose salary is greater than 70000 to 65000.
+
+    </h2>
+    <pre>Ans: const qry5=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.updateMany( { "salary": { $gt: "70000" } },{ $set: { "salary": "65000" } });
+        res.send({msg:result1})
+    }
+    </pre>
+    <h2>6:Delete all the documents from "employee" where last company is Y</h2>
+     <pre>Ans:const qry6=async (req,res)=>{
+        console.log(empcolloection)
+        const result1=await empcolloection.deleteMany({"lastComapny":"Y"});
+        res.send({msg:result1})
+    }</pre>
+</body>
+</html>
